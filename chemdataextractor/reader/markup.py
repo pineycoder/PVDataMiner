@@ -41,7 +41,7 @@ class LxmlReader(six.with_metaclass(ABCMeta, BaseReader)):
     #: A ``Cleaner`` instance to
     cleaners = [clean]
 
-    root_css = 'html'
+    root_css = ':root'
     title_css = 'h1'
     heading_css = 'h2, h3, h4, h5, h6'
     table_css = 'table'
